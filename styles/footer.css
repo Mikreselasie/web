@@ -1,0 +1,85 @@
+.footer{
+    background-color: #11122b;
+    justify-content: center;
+    display: grid;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 4px;
+}
+.footer > .logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer > .logo-container img{
+    width: 190px;
+    height: 100%;
+    justify-content: center;
+    opacity: 50%;
+}
+.footer >.adress-footer{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 30px;
+}
+.adress-footer a{
+    text-decoration: none;
+}
+.adress-footer > .nav-link{
+    margin: 20px 0px 10px 0px;
+}
+.footer > .copyright{
+    font-family: "Ubuntu Condensed" , sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #858585;
+}
+.footer > .contacts >.phone-no{
+    font-family: "Ubuntu Condensed";
+    color: white;
+}
+.footer > .contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.footer > .contacts > .work-time{
+    font-family: 'Ubuntu Condensed',sans-serif;
+    color: white;
+} 
+.footer > .social-medias{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 2em;
+}
+.facebook a{
+    display: grid;
+    justify-self: center;
+    transition: 0.4s;
+}
+.footer > .social-medias> .facebook a:hover{
+    font-size: 1.3em;
+    color: #cea35b;
+}
+.footer >.social-medias a{
+    text-decoration: none;
+    color: white;
+}
+.twitter{
+    display: flex;
+    justify-self: center;
+    transition: 0.4s;
+}
+.twitter:hover{
+    font-size: 1.3em;
+    color: #cea35b;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+.insta:hover{
+    font-size: 1.3em;
+    color: #cea35b;
+}

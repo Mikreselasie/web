@@ -1,0 +1,26 @@
+/*Hero section*/
+.hero-section{
+    background-image: url(../images/Clean.jpeg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-heading{
+    padding: 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Roboto Slab', serif;
+    width: 400px;
+    border-radius: 10px;
+}
+.bottom-heading{
+    background: rgb(255, 123, 0);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 207px;
+}
+
