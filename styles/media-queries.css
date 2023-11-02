@@ -1,0 +1,87 @@
+@media (max-width:615px){
+   .nav-wrapper{
+    flex-direction: column;
+    height: 100%;
+   } 
+   .nav-wrapper > .left-col{
+    order: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+   }
+   .nav-wrapper > .center-col{
+    order: 1;
+    width: 100%;
+   }
+   .nav-wrapper > .right-col{
+    order: 3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+   }
+   .links-wrapper{
+    flex-direction: column;
+    margin-bottom: 20px;
+   }
+   .links-wrapper > .nav-link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    width: 100%;
+   }
+   .hero-sectiom{
+    padding: 50px 10px;
+
+   }
+   .features-section{
+      height: 100%;
+
+   }
+   .features-section > .column-wrapper{
+      width: 100%;
+      flex-direction: column;
+   }
+   .footer{
+      height: 100%;
+   }
+   .contacts{
+      flex-direction: column;
+      text-align: center;
+   }
+   .skued-header > .skued-header-wrapper > .skued-header-content{
+      flex-direction: column;
+   } 
+   .page-container{
+      padding-left: 21px !important;
+      padding-right: 21px !important;
+   }
+   .skued-header > .header-bg{
+      background-size: 550px;
+   }
+   .content-wrapper > #chef{
+      margin: 0px 0px 25px 0px !important; 
+      width: 100% !important;
+      
+   }
+   .square{
+      grid-template-columns: 1fr !important;
+   }
+   .square > .img-wrapper{
+      order: 2;
+   }
+   .square > .square-text-wrapper{
+      order: 1;
+   }
+   .contact-grid-wrapper{
+      width: 100%;
+      grid-template-columns: 1fr !important;
+      grid-gap: 10px;
+   }
+   .form input{
+      padding: 1.5rem 0rem ;
+   }
+   .form textarea{
+      padding: 1.5rem 0rem;
+   }
+   
+}
